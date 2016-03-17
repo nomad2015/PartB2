@@ -30,6 +30,18 @@ to engage, at a minimum, at least 1 CPU and at least 1 GPU.
 
 
 ++++++++++++++++++++++++++
+
 1. cuda-thrust.cu       should be          cub.thrust.c
+
+2. line 28, **device**    should be          __device__
+
+3. include first two head files
+
+4. line 24
+return (((p.x-0.5)*(p.x-0.5)+(p.y-0.5)*(p.y-0.5))<0.25) ? 1 : 1;
+
+should be
+
+return (((p.x-0.5)*(p.x-0.5)+(p.y-0.5)*(p.y-0.5))<0.25) ? 1 : 0;
 
 
