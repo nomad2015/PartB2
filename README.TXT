@@ -25,3 +25,11 @@ These may also be useful commands:
 And a hint to help you on your way. Remember that every GPU program has
 two parts: a CPU part and a GPU part. To run this example you will have
 to engage, at a minimum, at least 1 CPU and at least 1 GPU.
+
+
+
+
+++++++++++++++++++++++++++
+1. cuda-thrust.cu       should be          cub.thrust.c
+
+

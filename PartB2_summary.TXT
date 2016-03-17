@@ -1,0 +1,5 @@
+
+++++++++++++++++++++++++++
+1. cuda-thrust.cu       should be          cub.thrust.c
+
+
